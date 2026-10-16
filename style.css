@@ -9,6 +9,7 @@ body {
 
 caption {
   border: 1px solid blue;
+  color: #ffffff;
 }
 
 table {
@@ -21,4 +22,9 @@ th {
 
 td {
   border: 1px solid red;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
 }
