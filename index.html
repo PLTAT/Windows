@@ -564,6 +564,9 @@
           <th>
             <span>Path</span>
           </th>
+          <th>
+            <span>PowerShell Policies</span>
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -576,10 +579,47 @@
           <td>
             <span>D:\nodejs</span>
           </td>
+          <td>
+            <button onclick="window.open('//learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies')">
+              Learn
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span>&nbsp;</span>
+          </td>
+          <td>
+            <span>&nbsp;</span>
+          </td>
+          <td>
+            <button style="color: blue;" onclick="navigator.clipboard.writeText('Get-ExecutionPolicy;Get-ExecutionPolicy -List')" title="click tp copy">
+              Copy-information
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span>&nbsp;</span>
+          </td>
+          <td>
+            <span>&nbsp;</span>
+          </td>
+          <td>
+            <button style="color: blue;" onclick="navigator.clipboard.writeText('Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned')" title="click tp copy">
+              Copy-Run_Once
+            </button>
+          </td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
+          <td>
+            <span>&nbsp;</span>
+          </td>
+          <td>
+            <span>&nbsp;</span>
+          </td>
           <td>
             <span>&nbsp;</span>
           </td>
