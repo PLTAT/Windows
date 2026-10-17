@@ -7,22 +7,32 @@ body {
   background-color: #25292e;
 }
 
-caption {
-  border: 1px solid blue;
-  color: #ffffff;
+table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
-table {
-  border: 1px solid red;
+caption {
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  color: #ffffff;
 }
 
 th {
-  border: 1px solid red;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  color: #ffffff;
 }
 
 td {
-  border: 1px solid red;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
   color: #ffffff;
+  text-align: center;
 }
 
 p {
